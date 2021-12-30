@@ -3,8 +3,10 @@ class MySolution {
     this.flag = false; // this is optional to use;
   }
 
-  binarySearch(nums, target) {
-    // Insert code here;
+    binarySearch(nums, target) {
+        let start = 0;
+        let mid = Math.floor(nums.length / 2);
+        let end = nums.length - 1;
   }
 }
 

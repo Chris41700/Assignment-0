@@ -1,8 +1,10 @@
 function setUnionOfAnyAmountOfSets(...args) {
     let union = new Set();
 
-    for (let i of args)
-        union.add(i);
+    for (var i = 0; i < args.length; i++) {
+        for (let j of args[i])
+            union.add(j);
+    }
 
     return union;
 }
