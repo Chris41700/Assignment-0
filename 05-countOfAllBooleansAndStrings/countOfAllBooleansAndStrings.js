@@ -2,7 +2,7 @@ function countOfAllBooleansAndStrings(arr) {
     let counter = 0;
 
     for (var i = 0; i < arr.length; i++) {
-        if (arr[i] === true || arr[i] === false || arr[i].startsWith(""))
+        if (arr[i] === true || arr[i] === false || typeof(arr[i]) == "string")
             counter++;
     }
 
